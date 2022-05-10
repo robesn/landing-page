@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+header {
+    background-color: #1f2937;
+    padding: 0px 200px 0px 200px;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+/* WELCOME */
+.hero {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    border: solid blue 2px;
+    width: 100px;
+    justify-content: space;
+}
